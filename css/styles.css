@@ -1,0 +1,145 @@
+body {
+  color: #212121;
+  background-color: #ffffff;
+}
+
+/*колір основного тексту #212121 */
+
+/*другий колір колір тексту #757575 */
+
+/*білий #FFFFFF */
+
+/*акцент #2196F3 */
+
+/*третій колір #2196F3 */
+
+/*колір з прозорістю rgba(255, 255, 255, 0.6) */
+
+/* колір основного фону #E5E5E5 */
+/* колір другого фону #F5F4FA */
+/* колір третього фону #2F303A */
+
+/* header */
+
+.logo {
+  color: #212121;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+/* nav */
+
+.nav-list {
+  color: #212121;
+}
+
+.nav-list-item {
+  color: #212121;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus,
+.nav-list-item:active {
+  color: #2196f3;
+}
+
+.nav-contacts-list {
+  color: #757575;
+}
+
+.nav-contacts-list:hover,
+.nav-contacts-list:focus,
+.nav-contacts-list:active {
+  color: #2196f3;
+}
+
+/* hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* feauters */
+
+.feauters {
+  background-color: #e5e5e5;
+}
+
+.feauters-title {
+  color: #212121;
+}
+
+.feauters-text {
+  color: #757575;
+}
+
+/* about */
+
+.about {
+  background-color: #e5e5e5;
+}
+
+.about-title {
+  color: #212121;
+}
+
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  color: #212121;
+}
+
+.team-name {
+  color: #212121;
+}
+
+.team-proffession {
+  color: #757575;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer-logo-web {
+  color: #2196f3;
+}
+
+.footer-map {
+  color: #ffffff;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
