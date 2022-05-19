@@ -5,33 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка-->
     <header>
+      <!--nav-->
       <nav>
         <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
         <ul class="nav-list list">
-          <li><a href="" class="nav-list-item">Студия</a></li>
-          <li><a href="" class="nav-list-item">Портфолио</a></li>
-          <li><a href="" class="nav-list-item">Контакты</a></li>
+          <li><a href="./index.html" class="nav-list-item link current">Студия</a></li>
+          <li><a href="" class="nav-list-item link">Портфолио</a></li>
+          <li><a href="" class="nav-list-item link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="nav-contacts list">
         <li>
-          <a href="mailto:info@devstudio.com" class="nav-contacts-list">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="nav-contacts-list link">info@devstudio.com</a>
         </li>
-        <li><a href="tel:+380961111111" class="nav-contacts-list">+38 096 111 11 11</a></li>
+        <li><a href="tel:+380961111111" class="nav-contacts-list link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!--Мейн-->
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="button">Заказать услугу</button>
+        <button type="button" class="hero-btn">Заказать услугу</button>
       </section>
-      <!--Переваги-->
+      <!--feauters-->
       <section class="feauters">
         <h2>Наші переваги</h2>
         <ul class="list">
@@ -61,7 +68,7 @@
           </li>
         </ul>
       </section>
-      <!--Про нас-->
+      <!--about-->
       <section class="about">
         <h2 class="about-title">Чем мы занимаемся</h2>
         <ul class="list">
@@ -76,7 +83,7 @@
           </li>
         </ul>
       </section>
-      <!--Наша команда-->
+      <!--team-->
       <section class="team">
         <h2 class="team-title">Наша команда</h2>
         <ul class="list">
@@ -113,12 +120,14 @@
               href="https://goo.gl/maps/DYDjYZ2KMcjr4Sc5A"
               target="_blank"
               rel="nofollow noferrer noopener"
-              class="footer-map"
+              class="footer-map link"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@example.com" class="footer-contacts">info@example.com</a></li>
-          <li><a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@example.com" class="footer-contacts link">info@example.com</a>
+          </li>
+          <li><a href="tel:+380991111111" class="footer-contacts link">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
