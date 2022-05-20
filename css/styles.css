@@ -17,7 +17,7 @@ body {
 /* header */
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -102,10 +102,15 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #188ce8;
 }
 
 /* feauters */
-
 .feauters {
   background-color: #e5e5e5;
 }
@@ -120,7 +125,6 @@ body {
 }
 
 .feauters-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -166,7 +170,6 @@ body {
 }
 
 .team-proffession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -181,7 +184,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -215,4 +218,44 @@ body {
 .footer-contacts:focus,
 .footer-contacts:active {
   color: #2196f3;
+}
+
+/* Portfolio*/
+
+.portfolio {
+  background-color: #e5e5e5;
+}
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: #212121;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
