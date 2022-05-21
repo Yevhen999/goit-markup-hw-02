@@ -1,7 +1,19 @@
+:root {
+  --first-color: #212121;
+  --second-color: #757575;
+
+  --first-background-color: #e5e5e5;
+  --second-background-color: #f5f4fa;
+  --third-background-color: #ffffff;
+  --fourth-background-color: #2f303a;
+  --accent-color: #2196f3;
+  --second-accent: rgba(255, 255, 255, 0.6);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--first-color);
+  background-color: var(--third-background-color);
 }
 
 /*колір основного тексту #212121 */
@@ -22,11 +34,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .list {
@@ -40,7 +52,7 @@ body {
 /* nav */
 
 .nav-list {
-  color: #212121;
+  color: var(--first-color);
 }
 
 .nav-list-item,
@@ -52,33 +64,33 @@ body {
 }
 
 .nav-list-item {
-  color: #212121;
+  color: var(--first-color);
 }
 
 .current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .nav-list-item:hover,
 .nav-list-item:focus,
 .nav-list-item:active {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .nav-contacts-list {
-  color: #757575;
+  color: var(--second-color);
 }
 
 .nav-contacts-list:hover,
 .nav-contacts-list:focus,
 .nav-contacts-list:active {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* hero */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--fourth-background-color);
 }
 
 .hero-title {
@@ -88,7 +100,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--third-background-color);
 }
 
 .hero-btn {
@@ -100,8 +112,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--third-background-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 
@@ -112,7 +124,7 @@ body {
 
 /* feauters */
 .feauters {
-  background-color: #e5e5e5;
+  background-color: var(--first-background-color);
 }
 
 .feauters-title {
@@ -121,24 +133,24 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .feauters-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
 
 /* about */
 
 .about {
-  background-color: #e5e5e5;
+  background-color: var(--first-background-color);
 }
 
 .about-title {
-  color: #212121;
+  color: var(--first-color);
 }
 
 .about-title,
@@ -153,11 +165,11 @@ body {
 /* team */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--second-background-color);
 }
 
 .team-title {
-  color: #212121;
+  color: var(--first-color);
 }
 
 .team-name {
@@ -166,7 +178,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .team-proffession {
@@ -174,13 +186,13 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
 
 /* footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--fourth-background-color);
 }
 
 .footer-logo {
@@ -189,11 +201,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--third-background-color);
 }
 
 .footer-logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-map {
@@ -202,7 +214,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--third-background-color);
 }
 
 .footer-contacts {
@@ -211,19 +223,19 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--second-accent);
 }
 
 .footer-contacts:hover,
 .footer-contacts:focus,
 .footer-contacts:active {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Portfolio*/
 
 .portfolio {
-  background-color: #e5e5e5;
+  background-color: var(--first-background-color);
 }
 
 .portfolio-btn {
@@ -233,15 +245,15 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: var(--second-background-color);
+  color: var(--first-color);
   cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--third-background-color);
 }
 
 .portfolio-title {
@@ -249,7 +261,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .portfolio-text {
@@ -257,5 +269,5 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
